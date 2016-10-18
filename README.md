@@ -14,7 +14,7 @@ External payloads should be stored in files in the same directory as executable.
 
 ## Hints
 
- - Remember to be use **consistent architecture** between binary and used payloads.
+ - Remember to use **consistent architecture** between binary and used payloads.
 
  - Once first present payload is executed, program waits for an input and is terminated. pause is used to wait for an input. If needed, this can be commented out or just bypassed - i.e. `echo | pause`
 
