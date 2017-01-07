@@ -8,9 +8,9 @@ foolavc on the other hand supports both x86 and x86_64 architectures, allows use
 
 ## Functionality
 
-Once started binary checks for content of `xl variable (payload.h)`. If set, it will be loaded into memory as DLL. Same thing happens for `xe variable` (loaded and executed in memory as PE executable file). `xf variable`, if set, will be executed as shellcode. In order to generate payload, `x-payload.py` script is provided.
+Once started binary checks for content of `xl variable (payload.h)`. If set, it will be loaded into memory as DLL. Same thing happens for `xe variable` (loaded and executed in memory as PE executable file). `xf variable`, if set, will be executed as shellcode. In order to generate payload, `x-encode.py` script is provided.
 
-External payloads should be stored in files in the same directory as executable. Those should be encoded using `m-payload.py` scipt. `.ml` is threated as DLL, `.me` as EXE and `.mf` as shellcode. Executable checks its name and attempts to open file with same name and one of before mentioned extensions.
+External payloads should be stored in files in the same directory as executable. Those should be encoded using `m-encode.py` scipt. `.ml` is threated as DLL, `.me` as EXE and `.mf` as shellcode. Executable checks its name and attempts to open file with same name and one of before mentioned extensions.
 
 ## Hints
 
